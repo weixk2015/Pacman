@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.pj2.pacman">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/p_hero3p"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".GameActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:hardwareAccelerated="false"
+            android:launchMode="singleInstance"
+            android:screenOrientation="landscape"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen">
+        </activity>
+        <activity
+            android:name=".WinActivity"
+            android:launchMode="singleInstance"
+            android:screenOrientation="landscape"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen">
+        </activity>
+        <activity
+            android:name=".LoseActivity"
+            android:launchMode="singleInstance"
+            android:screenOrientation="landscape"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen">
+        </activity>
+        <activity
+            android:name=".HelpActivity"
+            android:launchMode="singleInstance"
+            android:screenOrientation="landscape"
+            android:theme="@style/Transparent">
+
+        </activity>
+        <activity
+            android:name=".AddToChart"
+            android:launchMode="singleInstance"
+            android:screenOrientation="landscape"
+            android:theme="@style/Transparent"/>
+        <activity
+            android:name=".ChartActivity"
+            android:launchMode="singleInstance"
+            android:screenOrientation="landscape"
+            android:theme="@style/Transparent"/>
+        <activity
+            android:name=".Pause"
+            android:launchMode="singleInstance"
+            android:theme="@style/Transparent"/>
+        <activity
+            android:name=".MainMenu"
+            android:screenOrientation="landscape"
+
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen">
+            <intent-filter>
+            <action android:name="android.intent.action.MAIN" />
+
+            <category android:name="android.intent.category.LAUNCHER" />
+        </intent-filter></activity>
+    </application>
+
+</manifest>

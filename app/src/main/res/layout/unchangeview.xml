@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:ignore="Deprecated">
+    <ImageView
+        android:src="@drawable/p_score"
+        android:layout_height="38dp"
+        android:layout_width="wrap_content"
+        />
+    <ImageView
+        android:layout_height="100dp"
+        android:layout_width="100dp"
+        android:layout_x="475dp"
+        android:layout_y="200dp"
+        android:src="@drawable/p_handback" />
+</AbsoluteLayout>

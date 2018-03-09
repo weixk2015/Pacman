@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">PacMan</string>
+
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="score">score:</string>
+    <string name="_000">000</string>
+    <string name="score_text">score</string>
+</resources>

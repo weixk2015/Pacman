@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    >
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/p_btleft1p"
+        android:gravity="left"
+        android:id="@+id/to_left"
+        android:layout_marginStart="44dp"
+        android:layout_centerVertical="true"
+        android:layout_alignParentStart="true" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/p_help1"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/help_image"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/p_btright1p"
+        android:gravity="right"
+        android:id="@+id/to_right"
+        android:layout_marginEnd="37dp"
+        android:layout_alignBaseline="@+id/to_left"
+        android:layout_alignBottom="@+id/to_left"
+        android:layout_alignParentEnd="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/p_btback0p"
+        android:gravity="left"
+        android:id="@+id/backToGame"
+        android:layout_marginBottom="19dp"
+        android:layout_alignParentBottom="true"
+        android:layout_toStartOf="@+id/to_right"
+        android:layout_marginEnd="26dp" />
+</RelativeLayout>
